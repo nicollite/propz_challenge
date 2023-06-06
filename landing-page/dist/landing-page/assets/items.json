@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgSrc": "assets/product-img-1.jpg",
+      "name": "Headset Gamer Havit, Drivers 53mm, Microfone Plugável, P2, PC, PS4, XBOX ONE, Preto - HV-H2002D",
+      "pricing": {
+        "total": 179.99,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 17.99
+        },
+        "valueWithFees": {
+          "times": 15,
+          "value": 12.59
+        }
+      }
+    },
+    {
+      "id": 2,
+      "imgSrc": "assets/product-img-2.jpg",
+      "name": "WCG-Leather Gaming Chair, Cadeira do Computador, Internet Cafe, Internet Cafe, Cadeira de Escritório",
+      "pricing": {
+        "total": 212.14,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 21.21
+        },
+        "valueWithFees": {
+          "times": 20,
+          "value": 14.84
+        }
+      }
+    },
+    {
+      "id": 3,
+      "imgSrc": "assets/product-img-3.jpg",
+      "name": "Teclado Gamer Dazz Rapid Fire Revolution, Rainbow, ABNT2 - 625203",
+      "pricing": {
+        "total": 49.99,
+        "valueWithoutFees": {
+          "times": 3,
+          "value": 16.66
+        },
+        "valueWithFees": {
+          "times": 10,
+          "value": 5.25
+        }
+      }
+    },
+    {
+      "id": 4,
+      "imgSrc": "assets/product-img-4.jpg",
+      "name": "Mouse Gamer Redragon Cobra, Chroma RGB, 12400DPI, 7 Botões, Preto - M711V2",
+      "pricing": {
+        "total": 114.99,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 11.49
+        },
+        "valueWithFees": {
+          "times": 15,
+          "value": 12.07
+        }
+      }
+    },
+    {
+      "id": 5,
+      "imgSrc": "assets/product-img-5.jpg",
+      "name": "Monitor Gamer Concórdia, 23.6 Polegadas, LED FULL HD, 75hz, HDMI VGA, Curvo - Cz236f",
+      "pricing": {
+        "total": 615.12,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 61.51
+        },
+        "valueWithFees": {
+          "times": 15,
+          "value": 43.05
+        }
+      }
+    },
+    {
+      "id": 6,
+      "imgSrc": "assets/product-img-6.jpg",
+      "name": "Gabinete Gamer Ninja Kotaro, Mid Tower, Vidro Temperado, ATX, Black, Sem Fonte, Sem Fan, T005G",
+      "pricing": {
+        "total": 179.0,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 17.9
+        },
+        "valueWithFees": {
+          "times": 15,
+          "value": 12.53
+        }
+      }
+    }
+  ]
+}

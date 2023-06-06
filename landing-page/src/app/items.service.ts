@@ -31,6 +31,12 @@ export class ItemsService {
   constructor(public http: HttpClient) {}
 
   getItems(): Observable<Item[]> {
-    return this.http.get<ItemsResponse>("assets/items.json").pipe(map(res => res.items));
+    return this.http
+      .get<ItemsResponse>("assets/items.json", {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
+      })
+      .pipe(map(res => res.items));
   }
 }
