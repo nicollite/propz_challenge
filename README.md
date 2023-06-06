@@ -1,4 +1,4 @@
-# PROPZ CHALLeNGE
+# PROPZ CHALLENGE
 
 Esse é o projeto para os dois cases de testes pedidos.
 
