@@ -1,0 +1,105 @@
+main {
+  .info-title {
+    font-size: 14px;
+    color: #484c4f;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 55px;
+
+  .product-img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .item-info {
+    width: 100%;
+  }
+
+  .item-name {
+    font-weight: bold;
+  }
+
+  hr {
+    border-top: 2px solid rgba(0, 0, 0);
+  }
+
+  .price-without-fees-wrapper,
+  .price-with-fees-wrapper {
+    letter-spacing: 0;
+    margin-right: 10px;
+
+    & div:nth-child(1) {
+      font-size: 30px;
+      display: inline-flex;
+      font-weight: bold;
+    }
+
+    .money,
+    .comma,
+    .decimals {
+      font-size: 14px;
+      vertical-align: top;
+      margin-top: 6px;
+    }
+
+    .comma {
+      margin-left: 7px;
+    }
+  }
+
+  .fee-text {
+    font-size: 14px;
+    line-height: 10px;
+    .sup {
+      font-size: 8px;
+      vertical-align: top;
+    }
+  }
+
+  .logos {
+    margin-bottom: 35px;
+    img {
+      width: 40px;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .total-value {
+    font-size: 10px;
+  }
+}
+
+::ng-deep {
+  ngb-carousel {
+    .carousel-control-prev {
+      opacity: 1;
+
+      span {
+        background-image: url(/assets/left-arrow.png);
+        width: 40px;
+        height: 30px;
+      }
+    }
+
+    .carousel-control-next {
+      opacity: 1;
+
+      span {
+        background-image: url(/assets/right-arrow.png);
+        width: 40px;
+        height: 30px;
+      }
+    }
+  }
+}
