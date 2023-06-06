@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgSrc": "assets/product-img-1.jpg",
+      "name": "Headset Gamer Havit, Drivers 53mm, Microfone Plugável, P2, PC, PS4, XBOX ONE, Preto - HV-H2002D",
+      "pricing": {
+        "total": 179.99,
+        "valueWithoutFees": {
+          "times": 10,
+          "value": 17.99
+        },
+        "valueWithFees": {
+          "times": 15,
+          "value": 12.59
+        }
+      }
+    }
+  ]
+}

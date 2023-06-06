@@ -1,0 +1,15 @@
+header {
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gamer-logo {
+      max-width: 300px;
+    }
+
+    .propz-logo {
+      max-width: 100px;
+    }
+  }
+}

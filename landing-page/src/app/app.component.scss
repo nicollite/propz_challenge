@@ -1,0 +1,40 @@
+main {
+  .info-title {
+    font-size: 14px;
+    color: #484c4f;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.carousel {
+  width: 80vw;
+  margin: 0 auto;
+
+  & > button {
+    opacity: 1;
+  }
+
+  .carousel-control-prev {
+    left: -40px;
+  }
+  .carousel-control-next {
+    right: -40px;
+  }
+
+  .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #db9a33;
+  }
+
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid #db9a33;
+  }
+}
