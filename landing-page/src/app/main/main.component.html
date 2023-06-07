@@ -13,7 +13,7 @@
 
   <ngb-carousel #carousel>
     <ng-template *ngFor="let item of items" ngbSlide>
-      <div class="item">
+      <a class="item" href="#">
         <img class="product-img" [src]="item.imgSrc" />
 
         <div class="item-info">
@@ -70,7 +70,7 @@
 
           <hr />
         </div>
-      </div>
+      </a>
     </ng-template>
   </ngb-carousel>
 
